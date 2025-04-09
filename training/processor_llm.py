@@ -23,8 +23,8 @@ def classify_llm(log_message):
 
     If the message does not clearly fit either category, respond with: Unclassified
 
-    Only return one of these three options exactly. No preamble.:
-    
+    Only return **one of these three options exactly** — no explanation, no label, no formatting, no punctuation.
+
     - Workflow Error
     - Deprecation Warning
     - Unclassified
