@@ -1,4 +1,5 @@
 from processor_regex import classify_regex
+from processor_bert import classify_bert
 
 def classify_log_message(source, log_message):
     if source == "LegacyCRM":
@@ -7,7 +8,7 @@ def classify_log_message(source, log_message):
         label = classify_regex(log_message)
 
         if label is None:
-            pass #BERT
+            label = classify_bert(log_message)
 
         return label
     
