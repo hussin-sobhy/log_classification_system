@@ -26,7 +26,7 @@ def classify_regex(log_message):
     for pattern, category in regex_patterns.items():
         if re.search(pattern, log_message, re.IGNORECASE):
             return category        
-        return "Unknown"
+        return None
 
 
 if __name__ == "__main__":
