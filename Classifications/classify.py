@@ -43,9 +43,10 @@ def classify_csv(input_file):
 
 if __name__ == "__main__":
     # Example usage
-    classify_csv('data/test.csv')
+    
+    #classify_csv('data/test.csv')
 
-    '''logs = [
+    logs = [
             ("ModernCRM", "IP 192.168.133.114 blocked due to potential attack"),
             ("BillingSystem", "User User12345 logged in."),
             ("AnalyticsEngine", "File data_6957.csv uploaded successfully by user User265."),
@@ -59,4 +60,4 @@ if __name__ == "__main__":
         ]
     
     labels = classify(logs)
-    print(labels)'''
+    print(labels)
