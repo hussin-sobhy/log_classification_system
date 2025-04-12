@@ -1,28 +1,28 @@
 # Jupyter Notebook checkpoints
-notebooks/.ipynb_checkpoints/
+#notebooks/.ipynb_checkpoints/
 
 # Saved models (large binary files)
-saved_models/
-!saved_models/README.md  # Include a README for model versions
+#saved_models/
+#!saved_models/README.md  # Include a README for model versions
 
 # Environment files
 #.env
 #*.env
 
 # Python cache and compiled files
-__pycache__/
-*.py[cod]
+#__pycache__/
+#*.py[cod]
 
 # VS Code settings
-.vscode/
+#.vscode/
 
 # Conda environment files
-*.yml
+#*.yml
 
 # Logs
-logs/
-*.log
+#logs/
+#*.log
 
 # System files
-.DS_Store
+#.DS_Store
 
