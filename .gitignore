@@ -6,8 +6,8 @@ saved_models/
 !saved_models/README.md  # Include a README for model versions
 
 # Environment files
-.env
-*.env
+#.env
+#*.env
 
 # Python cache and compiled files
 __pycache__/
