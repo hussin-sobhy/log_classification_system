@@ -53,10 +53,9 @@ You can obtain a Groq API key by signing up at [https://console.groq.com/](https
 
 ### Running the API Server
 
-Start the FastAPI server:
+Start the FastAPI server from the project root directory:
 ```bash
-cd app
-uvicorn server:app --reload
+uvicorn app.server:app --reload
 ```
 
 The server will be available at http://localhost:8000.
