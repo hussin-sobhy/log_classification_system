@@ -154,11 +154,3 @@ jupyter notebook training/training.ipynb
 ```
 
 2. Follow the instructions in the notebook to train and save a new model.
-
-## License
-
-[Specify your license here]
-
-## Contributing
-
-[Specify contribution guidelines here]
