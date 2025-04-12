@@ -1,6 +1,6 @@
-from processor_regex import classify_regex
-from processor_bert import classify_bert
-from processor_llm import classify_llm
+from classifications.processor_regex import classify_regex
+from classifications.processor_bert import classify_bert
+from classifications.processor_llm import classify_llm
 import pandas as pd
 
 

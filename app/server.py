@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Dynamically add project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import FileResponse
 import pandas as pd
