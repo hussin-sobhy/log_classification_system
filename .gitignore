@@ -11,6 +11,7 @@ notebooks/.ipynb_checkpoints/
 
 # Python cache and compiled files
 **/__pycache__/
+__pycache__/
 *.py[cod]
 
 # VS Code settings
