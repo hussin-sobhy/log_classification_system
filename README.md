@@ -17,6 +17,8 @@ The classification strategy varies based on the log source:
 - Other logs are first attempted with regex patterns
 - If regex fails, a BERT-based classifier is used as a fallback
 
+![architecture](data/arch.png)
+
 ## System Architecture
 
 The system consists of:
