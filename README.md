@@ -33,7 +33,7 @@ The system consists of:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hussinxx700/log_classification_system
+git clone https://github.com/hussin-sobhy/log_classification_system
 cd log_classification_system
 ```
 
