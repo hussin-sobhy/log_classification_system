@@ -1,5 +1,15 @@
 # Log Classification System
 
+<!-- Stack Badges -->
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-333333?logo=uvicorn&logoColor=white)](https://www.uvicorn.org/)
+[![scikit‑learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-007ACC?logo=transformers&logoColor=white)](https://www.sbert.net/)
+[![Regex](https://img.shields.io/badge/Regex-555555?logo=regex&logoColor=white)](https://en.wikipedia.org/wiki/Regular_expression)
+[![Groq](https://img.shields.io/badge/Groq-FF5733?logo=none)](https://groq.com/)
+
+
 A multi-method log classification system that categorizes log messages from different sources using regex patterns, BERT embeddings, and LLM-based classification.
 
 ## Overview
@@ -33,7 +43,7 @@ The system consists of:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hussinxx700/log_classification_system
+git clone https://github.com/hussin-sobhy/log_classification_system
 cd log_classification_system
 ```
 
