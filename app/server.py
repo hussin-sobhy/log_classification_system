@@ -13,7 +13,7 @@ app = FastAPI()
 
 @app.post('/classify/')
 async def classify_logs(file: UploadFile):
-    if not file.filename.endswith('.csv'):
+    if not file.filename or not file.filename.endswith('.csv'):
         raise HTTPException(status_code=400, detail="File must be a CSV")
     try:
         df = pd.read_csv(file.file)

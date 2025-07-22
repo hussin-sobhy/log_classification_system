@@ -27,3 +27,9 @@ logs/
 # System files
 .DS_Store
 
+# Temporary files
+*.tmp
+*.temp
+*.png:Zone.Identifier
+
+
